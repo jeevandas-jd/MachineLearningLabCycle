@@ -1,0 +1,7 @@
+Logistic Regression Hyperparameter Tuning Report
+=======================================================
+
+Best Parameters:
+{'C': 0.1, 'max_iter': 500, 'solver': 'lbfgs'}
+
+Best Cross-Validation Accuracy: 0.9192
