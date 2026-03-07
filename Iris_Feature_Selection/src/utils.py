@@ -190,7 +190,7 @@ def save_model(model, filename):
     if not isinstance(filename, str):
         raise TypeError("filename must be a string.")
 
-    models_dir = "models"
+    models_dir = "../models"
 
     # create directory if it doesn't exist
     os.makedirs(models_dir, exist_ok=True)
